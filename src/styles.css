@@ -2,3 +2,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* styles.css */
+:root {
+    --primary-color: #7469B6;
+    --secondary-color: #AD88C6;
+    --background-color: #f5f5f5;
+    --text-color: #333;
+}
+ 
+ 

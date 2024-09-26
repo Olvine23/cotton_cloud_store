@@ -1,0 +1,16 @@
+nav {
+    
+    position: fixed; /* Fix the navbar to the top */
+    top: 0; /* Align it to the top */
+    left: 0; /* Align it to the left */
+    right: 0; /* Align it to the right */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+@media (max-width: 640px) {
+    .navbar-title {
+      display: block; /* Force the title to take full width */
+      text-align: center; /* Center align */
+      width: 100%; /* Ensure it takes the full width */
+    }
+  }
+  
